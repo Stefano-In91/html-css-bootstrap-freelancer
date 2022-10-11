@@ -91,3 +91,15 @@
 .ms-btn-white i {
     margin-right: 6px;
 }
+
+/* -------------------
+    CONTACT-ME
+--------------------*/
+
+#contact-me {
+    color: #2c3e50;
+}
+#contact-me button {
+    color: white;
+    background-color: #1abc9c;
+}
