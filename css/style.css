@@ -76,4 +76,18 @@
     background-color: #ccb2a3;
 }
 
+/* -------------------
+    ABOUT
+--------------------*/
 
+#about {
+    background-color: #1abc9c;
+    color: white;
+}
+.ms-btn-white {
+    color: white;
+    border: 1px solid white;
+}
+.ms-btn-white i {
+    margin-right: 6px;
+}
