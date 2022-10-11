@@ -35,10 +35,45 @@
     width: 50%;
     margin: auto;
 }
-.ms-star .col-5 {
+.ms-white-border {
     height: 0;
     border: 2px solid white;
 }
 .ms-star i {
     scale: 1.5;
 }
+.ms-other-border {
+    height: 0;
+    border: 2px solid #2c3e50;
+}
+
+/* -------------------
+    PORTFOLIO
+--------------------*/
+
+#portfolio {
+    color: #2c3e50;
+}
+.ms-icon-row div {
+    border-radius: 6px;
+}
+#portfolio .ms-icon-row div:nth-child(1) {
+    background-color: #ba4b63;
+}
+#portfolio .ms-icon-row div:nth-child(2) {
+    background-color: #1ea4b6;
+}
+#portfolio .ms-icon-row div:nth-child(3) {
+    background-color: #140f0f;
+}
+#portfolio .ms-icon-row div:nth-child(4) {
+    background-color: #1c83c1;
+}
+#portfolio .ms-icon-row div:nth-child(5) {
+    background-color: #0e38b5;
+}
+#portfolio .ms-icon-row div:nth-child(6) {
+    background-color: #ccb2a3;
+}
+
+
