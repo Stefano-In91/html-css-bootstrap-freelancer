@@ -27,6 +27,7 @@
 }
 #hero img {
     width: 40%;
+    max-width: 15.625rem;
 }
 
 /* Stellina */
@@ -57,22 +58,22 @@
 .ms-icon-row div {
     border-radius: 6px;
 }
-#portfolio .ms-icon-row div:nth-child(1) {
+#portfolio .ms-icon-row div:nth-child(1) div {
     background-color: #ba4b63;
 }
-#portfolio .ms-icon-row div:nth-child(2) {
+#portfolio .ms-icon-row div:nth-child(2) div {
     background-color: #1ea4b6;
 }
-#portfolio .ms-icon-row div:nth-child(3) {
+#portfolio .ms-icon-row div:nth-child(3) div {
     background-color: #140f0f;
 }
-#portfolio .ms-icon-row div:nth-child(4) {
+#portfolio .ms-icon-row div:nth-child(4) div {
     background-color: #1c83c1;
 }
-#portfolio .ms-icon-row div:nth-child(5) {
+#portfolio .ms-icon-row div:nth-child(5) div {
     background-color: #0e38b5;
 }
-#portfolio .ms-icon-row div:nth-child(6) {
+#portfolio .ms-icon-row div:nth-child(6) div {
     background-color: #ccb2a3;
 }
 
@@ -121,7 +122,13 @@ footer a {
     color: inherit;
     text-decoration: none;
 }
+footer a:hover {
+    color: inherit;
+}
 footer p a {
+    color: #1abc9c;
+}
+footer p a:hover {
     color: #1abc9c;
 }
 .ms-circle {
